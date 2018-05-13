@@ -1,0 +1,661 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+   
+    <title>Flower Shopping</title>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <link rel="stylesheet" type="text/css" href="css/animate.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript"></script>  
+ 
+  </head>
+  <body>
+
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="2" class="active"></li>
+  </ol>
+  <div class="carousel-inner" role="listbox">
+    <div class="item active">
+      <img src="flower1.jpg" width="1800px" height="5000px">
+      <div class="carousel-caption">
+        <h1 class="display-2">Flower Shopping</h1>
+        <h3>Flower Shopping</h3>
+        
+      </div>
+    </div>
+
+    <div class="item " >
+      <img src="flower2.jpg" width="1800px">
+    </div>
+    <div class="item">
+      <img src="flower3.jpg" width="1800px">
+    </div>
+  </div>
+  <!--start slider control-->
+  <a class="left carousel-control" href="#myCarousel" role="button" data-slde="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span></a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slde="next"><span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span></a>
+</div>
+   <!--Navigation-->
+
+    <div id="myNavbar" class="navbar navbar-default navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="icon-bar">
+              
+            </span>
+            <span class="icon-bar">
+              
+            </span>
+            <span class="icon-bar">
+              
+            </span>
+
+          </button>
+          <a href="../index.php" class="navbar-brand">back to org site</a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+          <li><a href="#header"></a></li>
+
+
+            <li><a href="#header">Home</a></li>
+            <li><a href="#services">Service</a></li>
+            <li><a href="#priciing">Price</a></li>
+            <li><a href="#team">Team Member</a></li>
+            <li><a href="#clients">Sponsor</a></li>
+            <li><a href="#contact">Contact</a></li>
+            
+            <li><a href="product1/product1.html">Product1</a></li>
+
+          </ul>
+        </div>
+<aside class="logo"></aside>
+    <aside class="menu">
+<div class="menu-content">
+        <i class="fa fa-unlock-alt"></i><a href="#" id="login">Login</a>   |    <i class="fa fa-user"></i><a href="C:\Users\SHAKHZOD\Desktop\label.html" id="register">Register</a>
+      </div>
+      <div class="arrow-up">
+        
+      </div>
+      </aside>
+      <div class="login-form">
+        <form>
+          <label>Username</label>
+          <div>
+            <input type="text" placeholder="Username" required/>
+          </div>
+          <label>Password</label>
+          <div>
+            
+            <input type="password" placeholder="Password" required/>
+          </div>
+          <div>
+            <input type="submit" value="Login">
+          </div>
+          <div>
+            <a href="#" style="text-decoration: none; position: relative;top: 20px; font-size: 16px; color: gray">Lost Your Password</a>
+          </div>
+        </form>
+      </div>
+
+<aside class="logo"></aside>
+    <aside class="menu">
+<div class="arrow-up1">
+        
+      </div>
+      </aside>
+      <div class="login-form1">
+        <div class="container">
+  <h1>Form Validation</h1>
+  <form class="form-horizontal" id="validateform">
+    <div class="row">
+      <div class="col-md-offset-1 col-md-4">
+        <div class="form-group">
+          <label class="control-label">Full Name:</label>
+          <input type="" name="full_name" placeholder="full Name" class="form-control">
+        </div>
+        <div class="form-group">
+          <label class="control-label">
+            Phone No:
+          </label>
+          <input type="" name="phone" placeholder="Phone No" class="form-control">
+        </div>
+        <div class="form-group">
+          <label class="control-label">
+            Address:
+          </label>
+          <textarea class="form-control" name="address" placeholder="Address..."></textarea>
+        </div>
+        <div class="form-group">
+          <label>Gender</label>
+          <div class="radio">
+            <label><input type="radio" name="gender" value="Male"/>Male</label>
+          </div>
+          <div class="radio">
+            <label><input type="radio" name="gender" value="female"/>Female</label>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-offset-1 col-md-4">
+        <div class="form-group">
+          <label class="control-label">E-Mail:</label>
+          <input type="" name="email" placeholder="E-Mail" class="form-control">
+        </div>
+        <div class="form-group has-feedback">
+          <label for="password" class="control-label">Password</label>
+          <input type="password" name="" class="form-control" id="userPw" placeholder="password" type="">
+        </div>
+        <div class="form-group has-feedback">
+          <label for="confirmPassword" class="control-label"> Confirm Password</label>
+          <input class="form-control" id="userPw2" type="password" placeholder="Confirm password" name="confirmPassword"/>
+        </div>
+        <div class="form-group">
+          <label class="control-label">Role</label>
+          <select name="role" class="form-control">
+          <option value="">PLease select role</option>
+         
+          <option>User</option>
+          </select>
+
+        </div>
+        <div class="form-group">
+          <label>Language</label>
+          <div class="checkbox">
+            <label><input type="checkbox" name="lang_known[]" value="E"/>English</label>
+          </div>
+          <div class="checkbox">
+            <label><input type="checkbox" name="lang_known[]" value="R"/>Russian</label>
+          </div>
+          <div class="checkbox">
+            <label><input type="checkbox" name="lang_known[]" value="U"/>Uzbek</label>
+          </div>
+        </div>
+        <div class="form-group">
+          <button id="alert" type="submit" class="btn btn-success">Submit</button>
+        </div>
+      </div>
+    </div>
+  </form>
+</div>
+
+
+
+
+      </div>
+
+
+<script type="text/javascript">
+  $(document).ready(function()
+  {
+    var arrow=$(".arrow-up");
+    var form=$(".login-form");
+    var status=false;
+    $("#login").click(function(event)
+    {
+      event.preventDefault();
+      if (status==false) {
+        arrow.fadeIn();
+        form.fadeIn();
+        status=true;
+      }
+      else{
+        arrow.fadeOut();
+        form.fadeOut();
+        status=false;
+      }
+    })
+  })
+</script>
+<script type="text/javascript">
+  $(document).ready(function()
+  {
+    var arrow1=$(".arrow-up1");
+    var form1=$(".login-form1");
+    var status=false;
+    $("#register").click(function(event)
+    {
+      event.preventDefault();
+      if (status==false) {
+        arrow1.fadeIn();
+        form1.fadeIn();
+        status=true;
+      }
+      else{
+        arrow1.fadeOut();
+        form1.fadeOut();
+        status=false;
+      }
+    })
+  })
+</script>
+
+
+      </div>
+    </div>
+<!--End Navigation-->
+
+<!--Header-->
+<div id="header" class="header">
+  <div class="aziz">
+    <div class="zizi">
+  <div class="container">
+    <div class="row">
+        <header>
+      <div class="col-lg-6 col-md-6 wow bounceInLeft" data-wow-delay="1s" >
+        <h1> Flowers delivery in Uzbekistan </h1>
+        <p>Our company is engaged in delivery of flowers across Tashkent and regions. An interesting flower arrangement in stylish packaging will decorate any celebration: the appearance of a newborn in the family, a wedding and an anniversary. This is a wonderful way to express gratitude and care, admit to tender feelings or ask for forgiveness. What to present favorite on February 14, March 8 or birthday?
+        What should I send my mother for my mother's day? Of course, a luxurious bouquet. For each popular holiday, the florists of our store prepare new thematic compositions. </p>
+        <h1> Beautiful inexpensive bouquets </h1>
+        <p>Tulips, roses, chrysanthemums, lilies or orchids ... in the catalog you will find the most wonderful plants. If you need something special, we recommend that you look at the following pages: </p>
+        <p>
+          To the flower presentation it is necessary to attach something else. For example, a box of chocolates, a cake, a toy, a postcard, or maybe a whole basket of goodies. All that is needed is in the Gifts section.
+
+You can order flowers delivery to any city in Uzbekistan. The online store is open 24 hours a day, with no breaks for lunch and weekends. Place an order online on the site or call +998 71 200-9800.
+        </p>
+      <h1>INTERNET COLOR SHOP IN UZBEKISTAN</h1>
+      <p>
+        The company "Flower Shopping" was founded in 2018. In our online store presents a wide selection of author's bouquets, compositions of flowers and gifts of high quality. All the bouquets are created by our professional florists in accordance with the current trends of floristry. The site features roses, chrysanthemums, gerberas, tulips, alstromeries, lilies, and exotic flowers. We have inexpensive prices and always fresh flowers.
+        Our service allows you to quickly, conveniently, inexpensively and simply to please a loved one. To place an order through the Internet on our website you can round the clock 7 days a week. The registration will take no more than 5 minutes. We will do our best to please your loved ones. Every day we receive more than 330 smiles and joyful words of gratitude. This is the best reward for an uneasy but very pleasant work.
+
+
+      </p>
+        <button class="btn btn-lg btn-primary" id="btn" ><a href="#services"> Go to Next</a></button>
+       
+      </div>
+      <div class="col-lg-6 col-md-6 wow bounceInRight" data-wow-delay="1s"" >
+        <img src="flower2.jpg" alt="">
+      </div>
+      </header>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+
+<!--services-->
+
+<!--End Services-->
+
+    <!--Pricing-->
+    <div id="Pricing" class="Pricing">
+<div class="container">
+  <div class="row">
+    <h2>Our Product Examples</h2>
+     <p>Lorem Ipsum is simply dummy text of the printing and typesetting dummy text</p>
+     <div class="col-lg-3 col-md-3 wow flipInY" >
+      <img src="images/bloom-blossom-close-up-37349.jpg" width="270px" height="300px" class="img-circle" alt="">
+        
+        <hr>
+       <div class="packages">
+         <h4>Bronze</h4>
+         
+         <hr>
+         
+       </div></div>
+        <div class="col-lg-3 col-md-3 wow flipInY" >
+           <img src="images/beautiful-blur-bouquet-342257.jpg" width="270px" height="300px" class="img-circle" alt="">
+        
+        <hr>
+        <div class="packages">
+         <h4>Silver</h4>
+                  
+         
+         <hr>
+         
+       </div>
+     </div>
+     <div class="col-lg-3 col-md-3 wow flipInY" >
+       <img src="images/image1.jpg" width="270px" height="300px" class="img-circle" alt="">
+        
+        <hr>
+        <div class="packages">
+         <h4>Gold</h4>
+         
+         <hr>
+         
+       </div>
+     </div>
+     <div class="col-lg-3 col-md-3 wow flipInY" >
+         <img src="images/cactus-color-flower-1030966.jpg" width="270px" height="300px" class="img-circle" alt="">
+        
+        <hr>
+        <div class="packages">
+         <h4>Premium</h4>
+        
+         <hr>
+         
+       </div>
+       </div>
+     </div>
+  </div>
+</div>
+<!--End Pricing-->
+
+<!--Team section-->
+
+<div id="team" class="team">
+  <div class="container">
+    <div class="row">
+      <h2>Meet our team</h2>
+      <p>Flower Shopping online store founders </p>
+      <div class="col-lg-3 col-md-3 wow fadeInLeft" data-wow-delay="2s" id="hover">
+        <a class="hover-box" href="#">
+        <img id="img" src="images/photo_2018-02-06_23-44-27.jpg" width="270px" height="300px" class="img-circle" alt="">
+        <h2><span>Aziz</span></h2></a>
+        <h4>Aziz</h4>
+        <b>Bokhidjonov</b>
+        <p>Front-end Developper of Flower Shopping (u1610036)</p>
+         <a href="#"><i class="fab fa-facebook"></i></a>
+         <a href="#"><i class="fab fa-twitter"></i>
+         <a href="#"><i class="fab fa-linkedin"></i></a>
+      </div>
+      <div class="col-lg-3 col-md-3 wow fadeInLeft" data-wow-delay="1.6s">
+        <img src="images/photo_2018-05-12_15-56-12.jpg" width="270px" height="300px" class="img-circle" alt="">
+        <h4>Bekmurod </h4>
+        <b>Juraboyev</b>
+        <p>Back-end Developper of Flower Shopping (u1610049)</p>
+         <a href="#"><i class="fab fa-facebook"></i></a>
+         <a href="#"><i class="fab fa-twitter"></i>
+         <a href="#"><i class="fab fa-linkedin"></i></a>
+      </div>
+      <div class="col-lg-3 col-md-3 wow fadeInLeft" data-wow-delay="1.2s">
+        <img src="images/IMG_1804.jpg" rotate="90" width="270px" height="300px" class="img-circle" alt="">
+        <h4>Usmonbek</h4>
+        <b>Ravshanov</b>
+        <p>Back-end Developper of Flower Shopping (u1610250)</p>
+         <a href="#"><i class="fab fa-facebook"></i></a>
+         <a href="#"><i class="fab fa-twitter"></i>
+         <a href="#"><i class="fab fa-linkedin"></i></a>
+      </div>
+      <div class="col-lg-3 col-md-3 wow fadeInLeft" data-wow-delay="0.8s">
+        <img src="flower2.jpg" width="270px" height="300px" class="img-circle" alt="">
+        <h4>Bekzod</h4>
+        <b>Joniqulov</b>
+        <p>Designer (u1610051)</p>
+         <a href="#"><i class="fab fa-facebook"></i></a>
+         <a href="#"><i class="fab fa-twitter"></i>
+         <a href="#"><i class="fab fa-linkedin"></i></a>
+      </div>
+     
+    </div>
+  </div>
+</div>
+
+<!--End Team-->
+
+
+<!--contact -->
+<div id="contact" class="contact">
+  <div class="container">
+    <div class="row">
+      <h2>Contact</h2>
+      <p>Lorem Ipsum passages, and more recently with desktop</p>
+      <div class="col-lg-3 col-md-3">
+        <div class="input-group input-group-lg wow fadeInUp"  >
+          <span class="input-group-addon" id ="sizaing-addon1"  ><i class="fas fa-user" aria-hidden="true"></i>
+
+          </span>
+          <input type="text" class="form-control" aria-describedby="sizaing-addon1" placeholder="Full Name">
+        </div>
+        <div class="input-group input-group-lg wow fadeInUp">
+          <span class="input-group-addon" id ="sizaing-addon1"><i class="fas fa-envelope" aria-hidden="true" ></i>
+
+</span>
+          <input type="text" class="form-control" aria-describedby="sizaing-addon1" placeholder="Email">
+        </div>
+        <div class="input-group input-group-lg wow fadeInUp">
+          <span class="input-group-addon" id ="sizaing-addon1" ><i class="fas fa-phone-square" aria-hidden="true"></i>
+
+</span>
+          <input type="text" class="form-control" aria-describedby="sizaing-addon1" placeholder="Phone Number">
+        </div>
+      </div>
+      
+
+      <div class="col-lg-6 col-md-6">
+        <div class="input-group wow fadeInUp">
+          <textarea name="" id="" cols="80" rows="6" class="form-control"></textarea>
+        </div>
+        <button class="btn btn-lg wow fadeInUp">Submit your massage</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+ 
+
+
+<!--End Contact-->
+<!--Footer-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--Register validation-->
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+
+  
+
+  
+</script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-validator/0.5.3/js/bootstrapValidator.min.js"></script>
+<script type="text/javascript">
+  $(document).ready(function()
+{
+$('#validateform').bootstrapValidator
+({
+  feedbackIcons:
+  {
+    valid: 'glyphicon glyphicon-ok',
+    invalid: 'glyphicon glyphicon-remove',
+    validating: 'glyphicon glyphicon-refresh' 
+  },
+  fields:
+  {
+    full_name:
+    {
+      validators: {
+        stringLength:
+        {
+          min: 5,
+          message: 'Please Enter your full name with minimum 5 letter length'
+        },
+        notEmpty: 
+        {
+          message: 'Please Enter your full name'
+        }
+      }
+    },
+    phone:
+    {
+      validators: {
+        numeric:
+        {
+          message: 'The phone must be a number'
+        },
+        notEmpty:
+        {
+          message: "PLease Enter your phone number"
+        }
+      }
+    },
+    address: 
+    {
+      validators:
+      {
+        stringLength: 
+        {
+          min:15,
+          max:100,
+          message: 'Please enter at least 15 char and no more than 100'
+        },
+        notEmpty:
+        {
+          message:'Please Enter Address'
+        }
+      }
+    },
+    gender:
+    {
+      validators:
+      {
+        notEmpty:
+        {
+          message:'The gender option is required'
+        }
+      }
+    },
+    email:
+    {
+      validators:
+      {
+        notEmpty:
+        {
+          message: 'Please Enter your email address'
+        },
+        emailAddress:
+        {
+          message:'Please Enter a valid email address'
+        }
+      }
+    },
+    password:
+    {
+      validators:
+      {
+        notEmpty:
+        {
+          message:'Enter your profile password'
+        }
+      }
+    },
+    confirmPassword:
+    {
+      validators:
+
+      {
+        notEmpty:
+        {
+          message:'Enter confirm your profile password'
+        },
+        identical:
+        {
+          field: 'password',
+          message:'Enter the password, what enter in password field'
+        }
+      }
+    },
+    'lang_known[]':
+    {
+      validators:
+      {
+        notEmpty:
+        {
+          message:'the language is required'
+        }
+      }
+    },
+    role:
+    {
+      validators:
+      {
+        notEmpty:
+        {
+          message: 'Choose your user role'
+        }
+      }
+    },
+  }
+});
+});
+</script>
+
+
+
+
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+<script>
+  swall({
+    title: "Good Job",
+    text: "You successfully registered",
+    icons: "success",
+    button:"click"
+  });
+
+  
+</script>
+
+
+
+<!--end of the register-->
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+     <script src="js/wow.min.js"></script>
+              <script>
+              new WOW().init();
+              </script>
+
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>

@@ -1,0 +1,80 @@
+body {
+  padding-top: 54px;
+}
+
+@media (min-width: 992px) {
+  body {
+    padding-top: 56px;
+  }
+}
+.navbar
+{
+  background-color: #5E4485 !important;
+  text-transform: uppercase;
+  font-family: 'PT Sans Narrow', Arial, sans-serif;
+}
+.navbar a
+{
+  color: #fff !important;
+  opacity: 0.7;
+}
+.navbar a:hover
+{
+  opacity: 1;
+  background-color: #111111 !important;
+
+}
+.services
+{
+  padding: 0px 0 0px;
+  text-align: center;
+}
+.services h1,
+.servicer h4
+{
+  color: #4c4c4c;
+  margin: 20px 0 20 px;
+}
+.services p
+{
+  color: #737373;
+  font-size: 14px;
+  padding-bottom: 40px;
+}
+.fab 
+{
+  height: 20px;
+  width: 20px;
+  font-size: 14px;
+  padding: 3px 3px;
+  border-radius: 50%;
+  background-color: #6699cc;
+  color: #fff;
+}
+.services
+@media(max-width: 768px)
+{
+  .services
+  {
+    padding: 30px;
+  }
+}
+.container2
+{margin-top: 5px;
+    margin-left: 21%;
+    margin-right: 10%;
+	text-align: center;
+	margin-top: 5px;
+}
+
+.item
+{
+background-color: #5E4485 !important;
+  text-transform: uppercase;
+  font-family: 'PT Sans Narrow', Arial, sans-serif;
+  font-size: 16px;
+}
+.footer .py-5
+{
+	background-color: #5E4485 !important;
+}

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Login</title>
+	
+	
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="login.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript"></script>
+</head>
+<body>
+
+
+<nav>
+	<section class="nav-container">
+		<aside class="logo"></aside>
+		<aside class="menu">
+			<div class="menu-content">
+				<i class="fa fa-unlock-alt"></i><a href="#" id="login">Login</a>   |    <i class="fa fa-user"></i><a href="#">Register</a>
+			</div>
+			<div class="arrow-up">
+				
+			</div>
+			</aside>
+			<div class="login-form">
+				<form>
+					<label>Username</label>
+					<div>
+						<input type="text" placeholder="Username" required/>
+					</div>
+					<label>Password</label>
+					<div>
+						
+						<input type="password" placeholder="Password" required/>
+					</div>
+					<div>
+						<input type="submit" value="Login">
+					</div>
+					<div>
+						<a href="#" style="text-decoration: none; position: relative;top: 20px; font-size: 16px; color: gray">Lost Your Password</a>
+					</div>
+				</form>
+			</div>
+	</section>
+</nav>
+<script type="text/javascript">
+	$(document).ready(function()
+	{
+		var arrow=$(".arrow-up");
+		var form=$(".login-form");
+		var status=false;
+		$("#login").click(function(event)
+		{
+			event.preventDefault();
+			if (status==false) {
+				arrow.fadeIn();
+				form.fadeIn();
+				status=true;
+			}
+			else{
+				arrow.fadeOut();
+				form.fadeOut();
+				status=false;
+			}
+		})
+	})
+</script>
+</body>
+</html>

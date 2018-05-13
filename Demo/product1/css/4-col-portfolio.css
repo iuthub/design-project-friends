@@ -1,0 +1,378 @@
+/@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+
+
+body {
+  padding-top: 54px;
+}
+
+@media (min-width: 992px) {
+  body {
+    padding-top: 56px;
+  }
+}
+.navbar
+{
+  background-color: #5E4485 !important;
+  text-transform: uppercase;
+  font-family: 'PT Sans Narrow', Arial, sans-serif;
+}
+.navbar a
+{
+  color: #fff !important;
+  opacity: 0.7;
+}
+.navbar a:hover
+{
+  opacity: 1;
+  background-color: #111111 !important;
+
+}
+
+.portfolio-item {
+  margin-bottom: 30px;
+}
+
+.pagination {
+  margin-bottom: 30px;
+}
+.container1
+{
+	margin-top: 30px;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+.fa-search
+{
+	font-size: 20px;
+}
+.btn-default
+{
+	background-color: orange;
+	width: 100px;
+	padding: 12.5px;
+}
+.form-control
+{
+	padding: 25px;
+	font-size: 20px;
+}
+/*******************************************************/
+.parent 
+      {
+        width: 273px;
+        
+        height: 180px;
+        border: 4px solid #fff;
+        overflow: hidden;
+        position: relative;
+        float: left;
+        display: inline-block;
+        cursor: pointer;
+      }
+      .child
+      {
+        height: 100%;
+        width: 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        transition: all .3s;
+      }
+      span
+      {
+        display: none;
+        font-size: 35px;
+        color: #fff !important;
+        font-family: sans-serif;
+      }
+      .parent:hover .child, .parent:focus .child
+      {
+        transform: scale(1.3);
+      }
+      .parent:hover .child:before, .parent:focus .child:before
+      {
+        display: bloc;
+      }
+      .parent:hover span, .parent: focus span
+      {
+        display: block;
+      }
+      .child:before
+
+      {
+        content: "";
+        display: none;
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        height: 50px;
+        cursor: pointer;
+      }
+      .parent:hover .child, .parent:focus .child
+      {
+        transform: scale(1.3);
+      }
+      .parent:hover .children:before, .parent:focus .child:before
+      {
+        display: block;
+      }
+      .child:before
+      {
+        content:"";
+        display: none;
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-color: rgba(52,73,94, 0.75)
+      }
+
+
+/*Portfolio*/
+
+
+
+.product-photo {
+    display: inline-block;
+    margin-bottom: 5px;
+}
+.img-responsive, .thumbnail > img, .thumbnail a > img, .carousel-inner > .item > img, .carousel-inner > .item > a > img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+img {
+    vertical-align: middle;
+}
+img {
+    border: 0;
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.product-item {
+    padding-left: 0;
+    padding-right: 0;
+    text-align: center;
+    margin-top: 15px;
+}
+body {
+    background: #fff;
+    font-family: 'Roboto', Arial, sans-serif;
+    font-weight: 300;
+}
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #fff;
+}
+html {
+    font-size: 10px;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+html {
+    font-family: sans-serif;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+*:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+     box-sizing: border-box;
+}
+*:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}/* End portfolio*/
+
+
+
+
+/********************************************/
+.product-wrapper
+{
+  position: relative;
+  width: 273px;
+  height: 400px;
+  background: white; 
+  color: black;
+  box-shadow: 0 5px 15px rgba(0,0,10,15);
+  transition: .5s;
+}
+.product-wrapper:hover
+{
+  transform: translateY(-30px);
+}
+.product-wrapper  .parent
+{
+  position: relative;
+}
+.product-wrapper  .parent img
+{
+  transition: .5s;
+}
+.product-wrapper:hover   .parent img
+{
+  opacity: .5;
+  overflow: hidden;
+  transform: translateY(-20px);
+}
+.product-wrapper .card-body
+{
+  position: absolute;
+  
+  left: 0;
+  padding: 20px;
+  box-sizing: border-box;
+  transition: .5s;
+  opacity: 0;
+  bottom: -300;
+}
+.product-wrapper:hover .card-body
+{
+  opacity: 1;
+  border-bottom: 0;
+  
+}
+.product-wrapper .card-body h4
+{
+  font-size: 48px;
+  color: #fff;
+  font-weight: 700;
+
+}
+.product-wrapper .card-body p
+{
+  transform: translateY(50px);
+  font-size: 18px;
+  color: #000;
+  font-weight: 400;
+}
+.product-wrapper .card-body .btn
+{
+  position: absolute;
+  border:none;
+  background: #fe1b70;
+  color: #fff;
+  font-size: 18px;
+  padding: 10px 20px;
+  font-weight: 700;
+  transition: .5s;
+  transform: translateY(10px);
+}
+.product-wrapper .card-body .btn:hover
+{
+  background: #f6fe1b;
+  color: #fff;
+}
+ .product-wrapper  .product-price  span
+{
+ font-size: 48px;
+  color: blue;
+  font-weight: 700;
+   position: absolute;
+  left: 0;
+  padding: 20px;
+  box-sizing: border-box;
+  transition: .5s;
+  opacity: 1;
+  position: 0;
+}
+.product-wrapper:hover  .product-price span
+{
+  overflow: hidden;
+  opacity: 0;
+
+  
+}
+/******************************************************************************/
+
+
+
+
+
+/*End list*/
+
+
+.services
+{
+  padding: 0px 0 0px;
+  text-align: center;
+}
+.services h1,
+.servicer h4
+{
+  color: #4c4c4c;
+  margin: 20px 0 20 px;
+}
+.services p
+{
+  color: #737373;
+  font-size: 14px;
+  padding-bottom: 40px;
+}
+.fab 
+{
+  height: 20px;
+  width: 20px;
+  font-size: 14px;
+  padding: 3px 3px;
+  border-radius: 50%;
+  background-color: #6699cc;
+  color: #fff;
+}
+.services
+@media(max-width: 768px)
+{
+  .services
+  {
+    padding: 30px;
+  }
+}
+
+.container2
+{margin-top: 5px;
+    margin-left: 21%;
+    margin-right: 10%;
+	text-align: center;
+	margin-top: 5px;
+}
+
+.item
+{
+background-color: #5E4485 !important;
+  text-transform: uppercase;
+  font-family: 'PT Sans Narrow', Arial, sans-serif;
+  font-size: 16px;
+}
+
+/*footer*/
+
+.footer
+{
+
+	padding:30px;
+	color: #cccccc;
+	background-color: #222222;
+}
+.footer .social
+{
+	font-size: 20px;
+	height: 30px;
+	width: 30px;
+	text-align: center;
+	padding: 5px;
+	border:1px solid #cccccc;
+	margin-bottom: 10px;
+	margin-right: 15px;
+}
+ 
